@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  position: relative;
+  height: 50px;
+}
+
+.heading {
+  color: blue;
+  position: absolute;
+  top: 0.5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 60px;
+  text-align: center;
+  width: 100%;
+}
+
+/* .coverpara {
+  color: rgb(37, 37, 193);
+  position: absolute;
+  top: 25%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  width: 100%;
+} */
+
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.button {
+  background-color: #264a63;
+  border: none;
+  color: white;
+  padding: 1px;
+  text-align: center;
+  display: inline-flex;
+  font-size: 12px;
+  margin: 2px 5px;
+  cursor: pointer;
+}
+
+/*center the reg and login form*/
+.registration {
+  padding: 16px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.login {
+  padding-top: 50px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=nid],
+input[type=email],
+input[type=radio] {
+  width: 100%;
+  padding: 20px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #b0b0b0;
+  margin-bottom: 25px;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact {
+  padding-top: 8px;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  display: block;
+}
+
+.about {
+  padding-top: 15px;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  display: block;
+  text-align: center;
+}
+
+.nav-link:hover {
+  background-color: rgba(17, 116, 214, 0.849);
+}
+
+.service {
+  padding-left: 70px;
+  padding-right: 70px;
+
+}
+
